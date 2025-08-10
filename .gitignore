@@ -1,0 +1,46 @@
+# Бинарники Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Папки сборки (если ты компилируешь вручную)
+build/
+bin/
+
+# Кэш Go
+*.log
+*.tmp
+*.swp
+
+# Модули Go (вендоринг)
+vendor/
+
+# Конфигурации среды
+.env
+.env.*
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.code-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+**/docker-data/
+**/pgdata/
+
+# Swagger docs (если ты генерируешь документацию)
+docs/swagger.json
+docs/swagger.yaml
+
+# Postgres volume data (если есть)
+pgdata/
+postgres
